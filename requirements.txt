@@ -1,0 +1,2 @@
+robotframework-PuppeteerLibrary==0.4.*
+requests==2.*
