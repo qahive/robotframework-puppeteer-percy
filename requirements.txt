@@ -1,2 +1,2 @@
-robotframework-PuppeteerLibrary==0.4.*
+git+https://github.com/qahive/pyppeteer.git@dev
 requests==2.*
