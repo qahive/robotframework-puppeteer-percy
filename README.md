@@ -4,14 +4,14 @@
 
 Keyword documentation
 ---------------------
-See [`keyword documentation`](https://qahive.github.io/robotframework-puppeteer-percy/PuppeteerPercyLibrary.html) for available keywords and more information about the library in general.
+See [`keyword documentation`](https://qahive.github.io/robotframework-puppeteer-percy/PuppeteerPercy.html) for available keywords and more information about the library in general.
 
 
 Installation
 ------------
 The recommended installation method is using pip:
 
-    pip install --upgrade robotframework-puppeteer-percylibrary
+    pip install --upgrade robotframework-puppeteer-percy
     
 Or manually install by running following command
     
