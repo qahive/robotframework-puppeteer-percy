@@ -4,14 +4,14 @@
 
 Keyword documentation
 ---------------------
-See [`keyword documentation`](https://qahive.github.io/robotframework-puppeteer-percy/PuppeteerPercyLibrary.html) for available keywords and more information about the library in general.
+See [`keyword documentation`](https://qahive.github.io/robotframework-puppeteer-percy/PuppeteerPercy.html) for available keywords and more information about the library in general.
 
 
 Installation
 ------------
 The recommended installation method is using pip:
 
-    pip install --upgrade robotframework-puppeteer-percylibrary
+    pip install --upgrade robotframework-puppeteer-percy
     
 Or manually install by running following command
     
@@ -21,7 +21,17 @@ Or manually install by running following command
 
 Usage
 ------------
-Create file name quick-start.robot with following content:
+(1) Go to [percy.io](https://percy.io/) and register new account
+
+(2) Create new project and save the PERCY_TOKEN
+
+(3) Run export token
+
+  - Window: `set PERCY_TOKEN=<your percy token>`
+  - Linux:  `export PERCY_TOKEN=<your percy token>`
+  
+(4) Create file name quick-start.robot with following content:
+
 
     *** Settings ***
     Library    PuppeteerLibrary
@@ -37,9 +47,12 @@ Create file name quick-start.robot with following content:
         Maximize Browser Window
         Percy Snapshot    Home page
 
-Need to run robot script with following command:
-    
+(5) Run robot script with following command:  
+
     npx percy exec -- robot quick-start.robot
+  
+  `npx percy exec` will start percy agent and auto stop when test completed
+    
 
 Limitation
 ------------
