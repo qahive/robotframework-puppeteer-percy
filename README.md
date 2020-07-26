@@ -49,3 +49,8 @@ FAQ
 ------------
 - Snapshot throw error `ElementHandleError: Evaluation failed: Event`. Your web site not allow to inject 3rd party javascript. Need to ask developer to allow localhost javascript tobe executed.
 
+Development
+------------
+Generate update keyword documents 
+
+    python -m robot.libdoc -f html PuppeteerPercy docs/PuppeteerPercy.html
