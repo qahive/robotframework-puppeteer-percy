@@ -39,5 +39,5 @@ setup(
         'pyppeteer>=0.2.2',
         'requests>=2'
     ],
-    zip_safe=False,
+    zip_safe=False
 )

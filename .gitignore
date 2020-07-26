@@ -248,3 +248,6 @@ Examples/example.png
 log.html
 output.xml
 report.html
+Examples/red.xml
+Examples/.project
+Examples/.gitignore
