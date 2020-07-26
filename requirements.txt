@@ -1,0 +1,3 @@
+git+https://github.com/qahive/pyppeteer.git@dev
+requests==2.*
+robotframework
