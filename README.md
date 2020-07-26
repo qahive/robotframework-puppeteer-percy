@@ -40,3 +40,12 @@ Create file name quick-start.robot with following content:
 Need to run robot script with following command:
     
     npx percy exec -- robot quick-start.robot
+
+Limitation
+------------
+- Not support for web site that restriction for other site resource files. 
+
+FAQ
+------------
+- Snapshot throw error `ElementHandleError: Evaluation failed: Event`. Your web site not allow to inject 3rd party javascript. Need to ask developer to allow localhost javascript tobe executed.
+
