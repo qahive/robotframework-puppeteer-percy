@@ -1,5 +1,5 @@
 # Run:
-# set PERCY_TOKEN=1d730f6004b423ea15045342e12d73683788f4e5c1ef1d1628d26f149ed34953
+# set PERCY_TOKEN=<YOUR PERCY TOKEN>
 # npx percy exec -- python .\quick-start.py
 
 
