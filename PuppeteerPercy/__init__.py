@@ -3,7 +3,7 @@ import requests
 from robot.api.deco import keyword, not_keyword
 from robot.libraries.BuiltIn import BuiltIn
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 class PuppeteerPercy:
@@ -27,7 +27,7 @@ class PuppeteerPercy:
     @not_keyword
     async def percy_snapshot_async(self, name, **kwargs):
         puppeteerLibrary = BuiltIn().get_library_instance('PuppeteerLibrary')
-        page = puppeteerLibrary.get_current_page()
+        page = puppeteerLibrary.get_current_library_context().get_current_page()
 
         # Exit if we have failed to connect to the percy-agent server
         if self.percyIsRunning == False:

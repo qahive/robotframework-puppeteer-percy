@@ -251,3 +251,5 @@ report.html
 Examples/red.xml
 Examples/.project
 Examples/.gitignore
+Examples/puppeteer-screenshot-1.png
+Examples/selenium-screenshot-1.png
