@@ -3,7 +3,7 @@ import requests
 from robot.api.deco import keyword, not_keyword
 from robot.libraries.BuiltIn import BuiltIn
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 class PuppeteerPercy:

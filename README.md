@@ -6,6 +6,7 @@ Keyword documentation
 ---------------------
 See [`keyword documentation`](https://qahive.github.io/robotframework-puppeteer-percy/PuppeteerPercy.html) for available keywords and more information about the library in general.
 
+Require [robotframework-puppeteer]](https://github.com/qahive/robotframework-puppeteer) version 2 or above.
 
 Installation
 ------------
